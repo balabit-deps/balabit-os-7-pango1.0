@@ -1,3 +1,12 @@
+pango1.0 (1.40.14-1ubuntu0.1) bionic-security; urgency=medium
+
+  * SECURITY UPDATE: Denial of service
+    - debian/patches/CVE-2018-15120.patch: fix in
+      pango/pango_emoji.c.
+    - CVE-2018-15120
+
+ -- Leonidas S. Barbosa <leo.barbosa@canonical.com>  Tue, 21 Aug 2018 16:15:52 -0300
+
 pango1.0 (1.40.14-1) unstable; urgency=medium
 
   * New upstream release
